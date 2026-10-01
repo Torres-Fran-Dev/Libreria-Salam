@@ -1,0 +1,445 @@
+/* =====================================================
+BASE
+===================================================== */
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    font-size: 14;
+font-family: "Inter", sans-serif;
+}
+
+/* =====================================================
+LOGO
+===================================================== */
+
+.logo-salam {
+width: 44px;
+height: 44px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 16px;
+
+background: linear-gradient(
+    135deg,
+    #7c3aed,
+    #4f46e5
+);
+
+box-shadow:
+    0 10px 30px rgba(124, 58, 237, .25);
+
+
+}
+
+.logo-salam.small {
+width: 40px;
+height: 40px;
+border-radius: 13px;
+}
+
+/* =====================================================
+WHATSAPP HEADER
+===================================================== */
+
+.whatsapp-header {
+display: flex;
+align-items: center;
+gap: 8px;
+
+padding: 10px 16px;
+
+color: white;
+font-size: 13px;
+font-weight: 700;
+
+border-radius: 12px;
+
+background: #16a34a;
+
+box-shadow:
+    0 10px 25px rgba(22, 163, 74, .18);
+
+transition:
+    .25s ease;
+
+
+}
+
+.whatsapp-header:hover {
+background: #22c55e;
+transform: translateY(-1px);
+}
+
+/* =====================================================
+HERO
+===================================================== */
+
+.hero-glow {
+position: absolute;
+
+width: 500px;
+height: 500px;
+
+top: -250px;
+left: 50%;
+
+transform: translateX(-50%);
+
+background: rgba(124, 58, 237, .18);
+
+filter: blur(100px);
+
+border-radius: 999px;
+
+pointer-events: none;
+
+
+}
+
+.category-badge {
+display: inline-flex;
+
+padding: 8px 16px;
+
+border-radius: 999px;
+
+color: #c4b5fd;
+
+background: rgba(76, 29, 149, .35);
+
+border: 1px solid rgba(124, 58, 237, .4);
+
+font-size: 11px;
+font-weight: 700;
+
+text-transform: uppercase;
+letter-spacing: .08em;
+
+
+}
+
+/* =====================================================
+FILTROS
+===================================================== */
+
+.filtro {
+padding: 10px 16px;
+
+border-radius: 12px;
+
+background: #111827;
+
+border: 1px solid #1f2937;
+
+color: #9ca3af;
+
+font-size: 13px;
+font-weight: 700;
+
+cursor: pointer;
+
+transition:
+    .25s ease;
+
+
+}
+
+.filtro:hover {
+color: white;
+border-color: rgba(139, 92, 246, .5);
+}
+
+.filtro.activo {
+color: white;
+
+background: #7c3aed;
+
+border-color: #8b5cf6;
+
+box-shadow:
+    0 8px 20px rgba(124, 58, 237, .25);
+
+
+}
+
+/* =====================================================
+TARJETAS
+===================================================== */
+
+.producto-card {
+animation: aparecer .35s ease forwards;
+
+transition:
+    transform .25s ease,
+    border-color .25s ease,
+    box-shadow .25s ease;
+
+
+}
+
+.producto-card:hover {
+transform: translateY(-5px);
+
+border-color: rgba(139, 92, 246, .55);
+
+box-shadow:
+    0 20px 45px rgba(0, 0, 0, .25);
+
+
+}
+
+.producto-imagen {
+aspect-ratio: 1 / 1;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+overflow: hidden;
+
+border-radius: 12px;
+
+background: #030712;
+
+border: 1px solid #1f2937;
+
+
+}
+
+.producto-imagen img {
+width: 100%;
+height: 100%;
+
+object-fit: contain;
+
+transition:
+    transform .35s ease;
+
+
+}
+
+.producto-card:hover .producto-imagen img {
+transform: scale(1.06);
+}
+
+.producto-marca {
+font-size: 8px;
+
+color: #4b5563;
+
+letter-spacing: .12em;
+
+font-weight: 800;
+
+
+}
+
+/* =====================================================
+CONTACTO
+===================================================== */
+
+.contact-card {
+padding: 24px;
+
+border-radius: 16px;
+
+background: #111827;
+
+border: 1px solid #1f2937;
+
+transition:
+    .25s ease;
+
+
+}
+
+.contact-card:hover {
+transform: translateY(-3px);
+
+border-color: rgba(139, 92, 246, .4);
+
+
+}
+
+.contact-icon {
+width: 44px;
+height: 44px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 12px;
+
+margin-bottom: 16px;
+
+font-size: 22px;
+
+
+}
+
+.whatsapp-icon {
+color: #34d399;
+background: rgba(16, 185, 129, .1);
+}
+
+.location-icon {
+color: #a78bfa;
+background: rgba(139, 92, 246, .1);
+}
+
+.time-icon {
+color: #22d3ee;
+background: rgba(6, 182, 212, .1);
+}
+
+/* =====================================================
+REDES
+===================================================== */
+
+.social-button {
+width: 50px;
+height: 50px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+border-radius: 12px;
+
+background: #111827;
+
+border: 1px solid #1f2937;
+
+color: #9ca3af;
+
+transition:
+    .25s ease;
+
+
+}
+
+.social-button.instagram:hover {
+color: #f472b6;
+border-color: rgba(236, 72, 153, .5);
+}
+
+.social-button.whatsapp:hover {
+color: #34d399;
+border-color: rgba(16, 185, 129, .5);
+}
+
+/* =====================================================
+FIRMA
+===================================================== */
+
+.developer-badge {
+display: inline-flex;
+
+align-items: center;
+
+gap: 8px;
+
+padding: 8px 14px;
+
+border-radius: 999px;
+
+color: #6b7280;
+
+background: rgba(76, 29, 149, .15);
+
+border: 1px solid rgba(124, 58, 237, .2);
+
+font-size: 15px;
+
+
+}
+
+/* =====================================================
+WHATSAPP FLOTANTE
+===================================================== */
+
+.whatsapp-float {
+position: fixed;
+
+right: 20px;
+bottom: 20px;
+
+z-index: 50;
+
+width: 58px;
+height: 58px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+color: white;
+
+background: #22c55e;
+
+border-radius: 999px;
+
+box-shadow:
+    0 15px 35px rgba(34, 197, 94, .3);
+
+transition:
+    transform .25s ease,
+    background .25s ease;
+
+
+}
+
+.whatsapp-float:hover {
+transform: scale(1.1);
+
+background: #16a34a;
+
+
+}
+
+/* =====================================================
+ANIMACIONES
+===================================================== */
+
+@keyframes aparecer {
+
+from {
+    opacity: 0;
+    transform: translateY(12px) scale(.98);
+}
+
+to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+
+}
+
+/* =====================================================
+RESPONSIVE
+===================================================== */
+
+@media (max-width: 640px) {
+
+.whatsapp-header {
+    padding: 10px 12px;
+}
+
+.whatsapp-float {
+    width: 54px;
+    height: 54px;
+
+    right: 16px;
+    bottom: 16px;
+}
+
+
+}
