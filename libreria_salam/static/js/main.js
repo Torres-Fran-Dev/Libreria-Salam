@@ -13,7 +13,7 @@ const productos = [
     { id: 8, categoria: "lapices", nombre: "Lapiceras Negras y Azules", imagen: "lapiceras_negra_azul.webp", precio: 350 },
     { id: 9, categoria: "lapices", nombre: "Lapiceras Rojas", imagen: "lapiceras_rojas.webp", precio: 470 },
     { id: 10, categoria: "lapices", nombre: "Lapiceras Verdes", imagen: "lapiceras_verdes.webp", precio: 470 },
-    { id: 11, categoria: "lapices", nombre: "Lápices de Colores", imagen: "lapices_colores.webp", precio: 280 },
+    { id: 11, categoria: "lapices", nombre: "Lápices negro fluor", imagen: "lapices_colores.webp", precio: 280 },
     { id: 12, categoria: "lapices", nombre: "Lápices de Colores 1", imagen: "lapices_colores1.webp", precio: 2500 },
     { id: 13, categoria: "lapices", nombre: "Lápices de Colores 2", imagen: "lapices_colores2.webp", precio: 2000 },
     { id: 14, categoria: "lapices", nombre: "Lápices con Dibujitos", imagen: "lapices_dibujitos.webp", precio: 300 },
@@ -26,8 +26,8 @@ const productos = [
     { id: 19, categoria: "utiles", nombre: "Adhesivo", imagen: "adhesivo.webp", precio: 1500 },
     { id: 20, categoria: "utiles", nombre: "Adhesivo en Barra", imagen: "adhesivo_en_barra.webp", precio: 690 },
     { id: 21, categoria: "utiles", nombre: "Boligoma", imagen: "boligoma.webp", precio: 2600 },
-    { id: 22, categoria: "utiles", nombre: "Cartulina", imagen: "cartulina.webp", precio: 700 },
-    { id: 23, categoria: "utiles", nombre: "Cartulina 1", imagen: "cartulina1.webp", precio: 700 },
+    { id: 22, categoria: "utiles", nombre: "Afiche", imagen: "cartulina.webp", precio: 700 },
+    { id: 23, categoria: "utiles", nombre: "Cartulina ", imagen: "cartulina1.webp", precio: 700 },
     { id: 24, categoria: "utiles", nombre: "Cinta Adhesiva", imagen: "cinta.webp", precio: 600 },
     { id: 25, categoria: "utiles", nombre: "Cinta Adhesiva 1", imagen: "cinta1.webp", precio: 1200 },
     { id: 26, categoria: "utiles", nombre: "Corrector", imagen: "corrector.webp", precio: 800 },
@@ -41,7 +41,7 @@ const productos = [
     { id: 34, categoria: "utiles", nombre: "Goma Eva Glitter", imagen: "gomaeva_glitter.webp", precio: 1500 },
     { id: 35, categoria: "utiles", nombre: "Hojas", imagen: "hojas.webp", precio: 5800 },
     { id: 36, categoria: "utiles", nombre: "Marcador Negro Permanente", imagen: "marcador_negro_permanente.webp", precio: 1200 },
-    { id: 37, categoria: "utiles", nombre: "Marcador Rojo", imagen: "marcador_rojo.webp", precio: 3000 },
+    { id: 37, categoria: "utiles", nombre: "Fibra Roja", imagen: "marcador_rojo.webp", precio: 3000 },
     { id: 38, categoria: "utiles", nombre: "Marcadores Permanentes Rojos", imagen: "marcadores_permanentes_rojos.webp", precio: 1200 },
     { id: 39, categoria: "utiles", nombre: "Mini Resaltadores", imagen: "mini_resaltadores.webp", precio: 4500 },
     { id: 40, categoria: "utiles", nombre: "Minigoma Pastel", imagen: "minigoma_pastel.webp", precio: 900 },
@@ -68,7 +68,7 @@ const productos = [
 
 let carrito = JSON.parse(localStorage.getItem("salam_carrito")) || [];
 let categoriaActual = "todos";
-const numeroWhatsApp = "5491100000000"; // Reemplazá con tu número real
+const numeroWhatsApp = "5491134157006"; // Reemplazá con tu número real
 
 const contenedor = document.getElementById("productos");
 const contador = document.getElementById("contador");
