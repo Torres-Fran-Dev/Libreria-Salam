@@ -37,33 +37,41 @@ const productos = [
     { id: 30, categoria: "utiles", nombre: "Fibras Comunes", imagen: "fibras_comunes.webp", precio: 2400 },
     { id: 31, categoria: "utiles", nombre: "Folios", imagen: "folios.webp", precio: 150 },
     { id: 32, categoria: "utiles", nombre: "Goma de Borrar", imagen: "goma.webp", precio: 250 },
-    { id: 33, categoria: "utiles", nombre: "Goma Eva Común", imagen: "gomaeva_comun.webp", precio: 800 },
-    { id: 34, categoria: "utiles", nombre: "Goma Eva Glitter", imagen: "gomaeva_glitter.webp", precio: 1500 },
-    { id: 35, categoria: "utiles", nombre: "Hojas", imagen: "hojas.webp", precio: 5800 },
-    { id: 36, categoria: "utiles", nombre: "Marcador Negro Permanente", imagen: "marcador_negro_permanente.webp", precio: 1200 },
-    { id: 37, categoria: "utiles", nombre: "Fibra Roja", imagen: "marcador_rojo.webp", precio: 3000 },
-    { id: 38, categoria: "utiles", nombre: "Marcadores Permanentes Rojos", imagen: "marcadores_permanentes_rojos.webp", precio: 1200 },
-    { id: 39, categoria: "utiles", nombre: "Mini Resaltadores", imagen: "mini_resaltadores.webp", precio: 4500 },
-    { id: 40, categoria: "utiles", nombre: "Minigoma Pastel", imagen: "minigoma_pastel.webp", precio: 900 },
-    { id: 41, categoria: "utiles", nombre: "Papel Glacé Fluo", imagen: "papel_glace_fluo.webp", precio: 500 },
-    { id: 42, categoria: "utiles", nombre: "Papel Glacé Lustre", imagen: "papel_glace_lustre.webp", precio: 400 },
-    { id: 43, categoria: "utiles", nombre: "Papel Glacé Metalizado", imagen: "papel_glace_metalizado.webp", precio: 600 },
-    { id: 44, categoria: "utiles", nombre: "Papel Súper Crepe", imagen: "papel_super_crepe.webp", precio: 900 },
-    { id: 45, categoria: "utiles", nombre: "Papel Súper Crepe 1", imagen: "papel_super_crepe1.webp", precio: 900 },
-    { id: 46, categoria: "utiles", nombre: "Pinceles", imagen: "pinceles.webp", precio: 500 },
-    { id: 47, categoria: "utiles", nombre: "Plasticola", imagen: "plasticola.webp", precio: 700 },
-    { id: 48, categoria: "utiles", nombre: "Reglas", imagen: "reglas.webp", precio: 550 },
-    { id: 49, categoria: "utiles", nombre: "Reglas de Colores", imagen: "reglas_colores.webp", precio: 1200 },
-    { id: 50, categoria: "utiles", nombre: "Reglas Transparentes", imagen: "reglas_transparentes.webp", precio: 400 },
-    { id: 51, categoria: "utiles", nombre: "Resaltador Chato Amarillo", imagen: "resaltador_chato_amarillo.webp", precio: 1200 },
-    { id: 52, categoria: "utiles", nombre: "Resaltador Fluo Azul", imagen: "resaltador_fluo_azul.webp", precio: 1400 },
-    { id: 53, categoria: "utiles", nombre: "Resaltador Fluo High", imagen: "resaltador_fluo_hight.webp", precio: 1500 },
-    { id: 54, categoria: "utiles", nombre: "Resaltador Sky", imagen: "resaltador_sky.webp", precio: 1800 },
-    { id: 55, categoria: "utiles", nombre: "Resaltadores Fluo Chatos", imagen: "resaltadores_fluo_chatos.webp", precio: 1600 },
-    { id: 56, categoria: "utiles", nombre: "Sacapuntas de Colores", imagen: "sacapuntas_colores.webp", precio: 200 },
-    { id: 57, categoria: "utiles", nombre: "Sacapuntas de Metal", imagen: "sacapuntas_metal.webp", precio: 250 },
-    { id: 58, categoria: "utiles", nombre: "Témperas", imagen: "temperas.webp", precio: 2500 },
-    { id: 59, categoria: "utiles", nombre: "Tijeras", imagen: "tijeras.webp", precio: 1000 }
+    { id: 33, categoria: "utiles", nombre: "Goma de Frutas", imagen: "gomas_frutas.webp", precio: 1500 },
+    { id: 34, categoria: "utiles", nombre: "Goma Eva Común", imagen: "gomaeva_comun.webp", precio: 800 },
+    { id: 35, categoria: "utiles", nombre: "Goma Eva Glitter", imagen: "gomaeva_glitter.webp", precio: 1500 },
+    { id: 36, categoria: "utiles", nombre: "Hojas", imagen: "hojas.webp", precio: 5800 },
+    { id: 37, categoria: "utiles", nombre: "Marcador Negro Permanente", imagen: "marcador_negro_permanente.webp", precio: 1200 },
+    { id: 38, categoria: "utiles", nombre: "Fibra Roja", imagen: "marcador_rojo.webp", precio: 3000 },
+    { id: 39, categoria: "utiles", nombre: "Marcadores Permanentes Rojos", imagen: "marcadores_permanentes_rojos.webp", precio: 1200 },
+    { id: 40, categoria: "utiles", nombre: "Mini Resaltadores", imagen: "mini_resaltadores.webp", precio: 4500 },
+    { id: 41, categoria: "utiles", nombre: "Minigoma Pastel", imagen: "minigoma_pastel.webp", precio: 900 },
+    { id: 42, categoria: "utiles", nombre: "Papel Glacé Fluo", imagen: "papel_glace_fluo.webp", precio: 500 },
+    { id: 43, categoria: "utiles", nombre: "Papel Glacé Lustre", imagen: "papel_glace_lustre.webp", precio: 400 },
+    { id: 44, categoria: "utiles", nombre: "Papel Glacé Metalizado", imagen: "papel_glace_metalizado.webp", precio: 600 },
+    { id: 45, categoria: "utiles", nombre: "Papel Súper Crepe", imagen: "papel_super_crepe.webp", precio: 900 },
+    { id: 46, categoria: "utiles", nombre: "Papel Súper Crepe 1", imagen: "papel_super_crepe1.webp", precio: 900 },
+    { id: 47, categoria: "utiles", nombre: "Pinceles", imagen: "pinceles.webp", precio: 500 },
+    { id: 48, categoria: "utiles", nombre: "Plasticola", imagen: "plasticola.webp", precio: 700 },
+    { id: 49, categoria: "utiles", nombre: "Reglas", imagen: "reglas.webp", precio: 550 },
+    { id: 50, categoria: "utiles", nombre: "Reglas de Colores", imagen: "reglas_colores.webp", precio: 1200 },
+    { id: 51, categoria: "utiles", nombre: "Reglas Transparentes", imagen: "reglas_transparentes.webp", precio: 400 },
+    { id: 52, categoria: "utiles", nombre: "Resaltador Chato Amarillo", imagen: "resaltador_chato_amarillo.webp", precio: 1200 },
+    { id: 53, categoria: "utiles", nombre: "Resaltador Fluo Azul", imagen: "resaltador_fluo_azul.webp", precio: 1400 },
+    { id: 54, categoria: "utiles", nombre: "Resaltador Fluo High", imagen: "resaltador_fluo_hight.webp", precio: 1500 },
+    { id: 55, categoria: "utiles", nombre: "Resaltador Sky", imagen: "resaltador_sky.webp", precio: 1800 },
+    { id: 56, categoria: "utiles", nombre: "Resaltadores Fluo Chatos", imagen: "resaltadores_fluo_chatos.webp", precio: 1600 },
+    { id: 57, categoria: "utiles", nombre: "Sacapuntas de Colores", imagen: "sacapuntas_colores.webp", precio: 200 },
+    { id: 58, categoria: "utiles", nombre: "Sacapuntas de Metal", imagen: "sacapuntas_metal.webp", precio: 250 },
+    { id: 59, categoria: "utiles", nombre: "Témperas", imagen: "temperas.webp", precio: 2500 },
+    { id: 60, categoria: "utiles", nombre: "Tijeras", imagen: "tijeras.webp", precio: 1000 },
+
+    // NUEVOS STICKERS
+    { id: 61, categoria: "stickers", nombre: "Stickers Variados", imagen: "stickers.webp", precio: 2000 },
+    { id: 62, categoria: "stickers", nombre: "Stickers de Autos", imagen: "stickers_autos.webp", precio: 2000 },
+    { id: 63, categoria: "stickers", nombre: "Stickers de Animales", imagen: "stickers_animales.webp", precio: 2000 },
+    { id: 64, categoria: "stickers", nombre: "Stickers de Animales 2", imagen: "stickers_animales1.webp", precio: 2000 },
+    { id: 65, categoria: "stickers", nombre: "Stickers de Caritas", imagen: "stickers_caritas.webp", precio: 2000 }
 ];
 
 let carrito = JSON.parse(localStorage.getItem("salam_carrito")) || [];
@@ -298,7 +306,7 @@ document.getElementById("btnEnviarCombo").addEventListener("click", () => {
 
     let texto = "¡Hola! 👋 Vengo de la web de *Librería SALAM*. Quiero encargar el siguiente combo:\n\n";
     carrito.forEach((item, index) => {
-        texto += `${index + 1}. *${item.nombre}* x ${item.cantidad} - ($${(item.precio * item.cantidad).toLocaleString()})\n`;
+        texto += `${index + 1}. *${item.nombre}* x ${item.cantidad} ($${(item.precio * item.cantidad).toLocaleString()})\n`;
     });
     texto += `\n💰 *Total estimado: $${calcularTotal().toLocaleString()}*\n\n¿Me confirmás stock y total para pasar a retirar / transferir? ¡Gracias!`;
 
